@@ -1,1 +1,1 @@
-# sergeyboldetsky.travel.github.io
+https://sergeyboldetsky.github.io/travel.github.io/
