@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@font-face {
+  font-family: "Quite Chocolatey";
+  src: url(../fonts/QuiteChocolatey.ttf);
+}
+
+/* line 9, F:/maket6/scss/style.scss */
+body {
+  background-color: #e3d5b8;
+}
+
+/* line 13, F:/maket6/scss/style.scss */
+.header {
+  background-image: url(../images/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   margin: 0 auto;
+}
+
+/* line 20, F:/maket6/scss/style.scss */
+.header .fon {
+  background-color: rgba(227, 213, 184, 0.5);
+}
+
+/* line 23, F:/maket6/scss/style.scss */
+.header .fon .header_tittle {
+  width: 993px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 150px;
+}
+
+/* line 31, F:/maket6/scss/style.scss */
+.header .fon .header_tittle .logo {
+  padding-top: 38px;
+  padding-bottom: 23px;
+  display: block;
+  color: #d03958;
+  font-family: "Quite Chocolatey";
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 32.38px;
+  letter-spacing: -1.2px;
+}
+
+/* line 42, F:/maket6/scss/style.scss */
+.header .fon .header_tittle .navigation {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+/* line 47, F:/maket6/scss/style.scss */
+.header .fon .header_tittle .navigation .header_menu {
+  display: flex;
+}
+
+/* line 50, F:/maket6/scss/style.scss */
+.header .fon .header_tittle .navigation .header_menu .menu_hover {
+  text-decoration: none;
+  padding: 12px 21px;
+  color: #1b1b1b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: -0.36px;
+}
+
+/* line 62, F:/maket6/scss/style.scss */
+.header .fon .header_tittle .navigation .header_menu .menu_hover:hover {
+  background-color: #d03958;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+/* line 71, F:/maket6/scss/style.scss */
+.header .fon .header_text_all {
+  width: 993px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 78, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_text {
+  max-width: 493px;
+}
+
+/* line 81, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_text h1 {
+  color: #d03958;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  text-transform: uppercase;
+  letter-spacing: -1.8px;
+  padding-bottom: 47px;
+}
+
+/* line 91, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_text h1 span {
+  color: #161616;
+}
+
+/* line 96, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_text p {
+  color: #161616;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 156px;
+}
+
+/* line 107, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_form {
+  background-color: #d03958;
+  border-radius: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  top: 81px;
+}
+
+/* line 115, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_form .form_text {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  display: block;
+  text-align: center;
+}
+
+/* line 128, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_form .form_input {
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-bottom: 13px;
+  width: 356px;
+  padding-left: 3px;
+}
+
+/* line 135, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_form .form_input .user {
+  outline: none;
+  padding: 21px;
+  border: 0;
+  width: 310px;
+}
+
+/* line 142, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_form .form_input select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 149, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .header_form .checkbox {
+  color: #ffffff;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+}
+
+/* line 159, F:/maket6/scss/style.scss */
+.header .fon .header_text_all .submit {
+  background-color: #161616;
+  border-radius: 3px;
+  margin-top: 18px;
+  margin-bottom: 28px;
+  width: 356px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  border: 0;
+}
+
+/* line 179, F:/maket6/scss/style.scss */
+.main_all {
+  background-color: #fff;
+}
+
+/* line 182, F:/maket6/scss/style.scss */
+.main_all .main {
+  margin: 0 auto;
+  width: 995px;
+}
+
+/* line 186, F:/maket6/scss/style.scss */
+.main_all .main .main_tittle {
+  color: #161616;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-bottom: 91px;
+}
+
+/* line 196, F:/maket6/scss/style.scss */
+.main_all .main .main_tittle span {
+  color: #d03958;
+}
+
+/* line 201, F:/maket6/scss/style.scss */
+.main_all .main .main_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 206, F:/maket6/scss/style.scss */
+.main_all .main .main_cards .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 174px;
+}
+
+/* line 212, F:/maket6/scss/style.scss */
+.main_all .main .main_cards .item .card {
+  background-image: url("../images/1.png");
+  width: 174px;
+  height: 157px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 220, F:/maket6/scss/style.scss */
+.main_all .main .main_cards .item .card2 {
+  background-image: url("../images/2.png");
+}
+
+/* line 224, F:/maket6/scss/style.scss */
+.main_all .main .main_cards .item .card3 {
+  background-image: url("../images/3.png");
+}
+
+/* line 228, F:/maket6/scss/style.scss */
+.main_all .main .main_cards .item .card4 {
+  background-image: url("../images/4.png");
+}
+
+/* line 232, F:/maket6/scss/style.scss */
+.main_all .main .main_cards .item .card_text {
+  padding-top: 43px;
+  text-align: center;
+  padding-bottom: 66px;
+  color: #161616;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+/* line 248, F:/maket6/scss/style.scss */
+.content_all {
+  background-color: #d03958;
+}
+
+/* line 251, F:/maket6/scss/style.scss */
+.content_all .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 43px;
+  margin: 0 auto;
+  width: 992px;
+  padding-right: 5px;
+  padding-left: 3px;
+}
+
+/* line 263, F:/maket6/scss/style.scss */
+.content_all .content .content_text {
+  color: #ffffff;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  width: 601px;
+}
+
+/* line 273, F:/maket6/scss/style.scss */
+.content_all .content .content_button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 1px solid #e3d5b8;
+  border-radius: 5px;
+  background-color: #e3d5b8;
+  width: 272px;
+  color: #161616;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+}
+
+/* line 296, F:/maket6/scss/style.scss */
+.price_all .price {
+  padding-top: 60px;
+  width: 997px;
+  margin: 0 auto;
+}
+
+/* line 301, F:/maket6/scss/style.scss */
+.price_all .price .price_tittle {
+  color: #1f1f1f;
+  text-align: center;
+}
+
+/* line 305, F:/maket6/scss/style.scss */
+.price_all .price .price_tittle h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-bottom: 55px;
+}
+
+/* line 316, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 322, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block {
+  width: 321px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* line 331, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block h3 {
+  padding-top: 57px;
+  color: #161616;
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+}
+
+/* line 341, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block p {
+  padding-top: 30px;
+  padding-bottom: 33px;
+  color: #818b95;
+  font-family: Lato;
+  line-height: 22px;
+  font-variant: small-caps;
+  color: #ffbb42;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 353, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block p span {
+  color: #d03958;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1.2px;
+}
+
+/* line 363, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block .price_account {
+  max-width: 329px;
+  padding-left: 31px;
+  padding-right: 31px;
+  color: #b5bbc1;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+/* line 375, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block .price_account .span_1 {
+  display: block;
+  color: #161616;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  text-transform: none;
+}
+
+/* line 388, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block .price_button {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  background-color: #e3d5b8;
+  border-radius: 3px;
+  color: #161616;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: -0.44px;
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 407, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_block .price_button:hover {
+  background-color: #d03958;
+  color: #fff;
+}
+
+/* line 413, F:/maket6/scss/style.scss */
+.price_all .price .price_block_all .price_link::before {
+  content: url("../images/2-layers.png");
+  position: absolute;
+  top: -1px;
+  left: 337px;
+}
+
+/* line 423, F:/maket6/scss/style.scss */
+.user_container_all {
+  background-color: #fff;
+}
+
+/* line 426, F:/maket6/scss/style.scss */
+.user_container_all .user_container {
+  margin: 0 auto;
+  width: 1014px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 150px;
+  padding-bottom: 116px;
+}
+
+/* line 437, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_tittle {
+  color: #1f1f1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+/* line 452, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_content .test_text {
+  position: relative;
+  padding-bottom: 32px;
+}
+
+/* line 456, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_content .test_text .test_text_2 {
+  background-color: #e3d5b8;
+  border-radius: 5px;
+  width: 412px;
+  padding: 28px 0 28px 13px;
+  position: relative;
+  left: -15px;
+}
+
+/* line 464, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_content .test_text .test_text_2 p {
+  padding-bottom: 30px;
+  color: #161616;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  max-width: 336px;
+}
+
+/* line 475, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_content .test_text .test_text_2 span {
+  color: #d03958;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  display: block;
+}
+
+/* line 486, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_content .test_text .text_color {
+  background-color: #fff;
+}
+
+/* line 491, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_content .test_text::after {
+  content: url("../images/layer-4.png");
+  width: 107px;
+  height: 107px;
+  position: absolute;
+  left: 350px;
+  top: 30px;
+}
+
+/* line 500, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_test .test_content .icon_ava::after {
+  content: url("../images/layer-6.png");
+}
+
+/* line 508, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_gallery .test_tittle {
+  color: #d03958;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 521, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_gallery .gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 386px;
+}
+
+/* line 527, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_gallery .gallery .gallery_img {
+  padding-bottom: 28px;
+}
+
+/* line 532, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_gallery .view_gallery {
+  padding-top: 17px;
+  color: #d03958;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 545, F:/maket6/scss/style.scss */
+.user_container_all .user_container .user_gallery .view_gallery a:visited {
+  color: #d03958;
+}
+
+/* line 553, F:/maket6/scss/style.scss */
+.footer_all {
+  background-color: #161616;
+}
+
+/* line 556, F:/maket6/scss/style.scss */
+.footer_all .footer {
+  margin: 0 auto;
+  width: 1004px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 563, F:/maket6/scss/style.scss */
+.footer_all .footer .footer_text {
+  color: #ffffff;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  padding-top: 82px;
+  padding-bottom: 84px;
+}
+
+/* line 573, F:/maket6/scss/style.scss */
+.footer_all .footer .footer_text a {
+  color: #d03958;
+}
+
+/* line 577, F:/maket6/scss/style.scss */
+.footer_all .footer .footer_text a:visited {
+  color: #d03958;
+}
+
+/* line 582, F:/maket6/scss/style.scss */
+.footer_all .footer .logo {
+  padding-top: 94px;
+  padding-bottom: 64px;
+  display: block;
+  color: #d03958;
+  font-family: "Quite Chocolatey";
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 32.38px;
+  letter-spacing: -1.2px;
+}
+
+/*# sourceMappingURL=../css/style.map */
