@@ -14,7 +14,6 @@ body {
     background-image: url(../images/fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1200px;
     margin: 0 auto;
 
         .fon {
@@ -171,6 +170,7 @@ body {
                     text-transform: uppercase;
                     letter-spacing: -0.44px;
                     border: 0;
+                    cursor: pointer;
                 }
             }
         }
